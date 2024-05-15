@@ -1,2 +1,12 @@
-- name: NPM Publish
-  uses: JS-DevTools/npm-publish@v3.1.1
+name: Publish Package to npmjs
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: NPM Publish
+        uses: JS-DevTools/npm-publish@v3.1.1
