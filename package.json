@@ -1,23 +1,18 @@
 {
   "name": "@mvc-org/mvc-resources",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "mvc resources cdn",
   "main": "index.js",
   "files": [
     "icons",
     "rules"
   ],
+  "types": "types/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mvc-labs/mvc-resources.git"
-  },
-  "author": "mvc-labs",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mvc-labs/mvc-resources/issues"
-  },
-  "homepage": "https://github.com/mvc-labs/mvc-resources#readme"
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
 }

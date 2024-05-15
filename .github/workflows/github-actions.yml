@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: 20
 
+      # run build
+      - name: Build
+        run: npm run build
+
       - name: Publish to NPM
         uses: JS-DevTools/npm-publish@v3
         with:

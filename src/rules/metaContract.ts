@@ -1,4 +1,9 @@
-export const metaContractIcons = [
+export const metaContractIcons: {
+  genesis: string
+  codehash: string
+  symbol: string
+  logo: string
+}[] = [
   {
     genesis: 'SPACE',
     codehash: '',
