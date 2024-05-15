@@ -1,10 +1,11 @@
 {
   "name": "@mvc-org/mvc-resources",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mvc resources cdn",
   "main": "index.js",
   "files": [
-    "icons"
+    "icons",
+    "rules"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
