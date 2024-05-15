@@ -1,12 +1,14 @@
 name: Publish Package to npmjs
+
 on:
   push:
-    branches:
-      - main
+    branches: main
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: NPM Publish
-        uses: JS-DevTools/npm-publish@v3.1.1
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
