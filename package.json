@@ -1,11 +1,13 @@
 {
   "name": "@mvc-org/mvc-resources",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "mvc resources cdn",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
     "icons",
-    "rules"
+    "rules",
+    "dist",
+    "types"
   ],
   "types": "types/index.d.ts",
   "scripts": {
