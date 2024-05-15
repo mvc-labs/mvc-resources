@@ -1,6 +1,6 @@
 {
   "name": "@mvc-org/mvc-resources",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "mvc resources",
   "main": "index.js",
   "files": [
