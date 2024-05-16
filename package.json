@@ -1,6 +1,6 @@
 {
   "name": "@mvc-org/mvc-resources",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "mvc resources cdn",
   "main": "dist/index.js",
   "files": [
